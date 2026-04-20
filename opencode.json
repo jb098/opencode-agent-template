@@ -1,0 +1,11 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "agent": {
+    "tfl-agent": {
+      "prompt": "{file:./prompts/tfl-agent-instructions.txt}",
+      "description": "Specialized agent that gives information on the status of transport lines in London",
+      "permission": {"tfl-line-scrape":"allow"}
+    }
+  }
+}
+
